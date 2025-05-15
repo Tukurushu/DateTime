@@ -31,7 +31,7 @@ namespace Fecha
             //2025-1992//
             int edad= fechaactual.Year - fechanacimiento.Year;
 
-            if (usuario == "lalo" && password == "123" && edad >= 18)
+            if (usuario == "Oscar" && password == "123" && edad >= 18)
             {
                 Console.WriteLine($"Cumples los requisitos");
             }
